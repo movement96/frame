@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
       label: 'farcode time!',
     },
     {
-      label: 'Redirect to cute dog pictures',
+      label: 'Mint farcode',
       action: 'post_redirect',
     },
   ],
