@@ -19,7 +19,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   if (message?.button === 2) {
     return NextResponse.redirect(
-      'https://www.google.com/search?q=farcaster&tbm=isch&ved=2ahUKEwiw7K_b15eEAxUn7gIHHVlYCrAQ2-cCegQIABAA&oq=farcaster&gs_lp=EgNpbWciCWZhcmNhc3RlcjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIHEAAYgAQYGDIHEAAYgAQYGDIHEAAYgAQYGDIHEAAYgAQYGEjaHlCIClj5E3AAeACQAQCYAUagAe0EqgECMTC4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ8ICChAAGIAEGIoFGEOIBgE&sclient=img&ei=OajCZfDrMKfci-gP2bCpgAs#imgrc=xdszH7LQminfPM',
+      'https://warpcast.com/dece',
       { status: 302 },
     );
   }
