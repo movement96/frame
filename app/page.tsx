@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Story time!',
+      label: 'farcode time!',
     },
     {
       label: 'Redirect to cute dog pictures',
@@ -14,16 +14,16 @@ const frameMetadata = getFrameMetadata({
   ],
   image: `${NEXT_PUBLIC_URL}/park-1.png`,
   input: {
-    text: 'Tell me a boat story',
+    text: 'don't fade it',
   },
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: '/farcode',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: '/farcode',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
